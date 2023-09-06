@@ -2,7 +2,7 @@ export const projects = [
   {
     title: 'Graph Learning Internship, Société Générale',
     description: "Implementation of a graph learning solution to document the data catalog of the société générale. Implementation of GSage, GCN and GAT architectures on Pytorch. Data Engineering tasks : Java, Spark, Kubernetes, Airflow, Hadoop, Jenkins, Hue. Presentation of my work in the teams group of the Société Générale (110 people) ",
-      image: '/images/7.png',
+    image: '/images/7.png',
       tags: ['Graph Learning', 'Big Data', 'Airflow', 'Pytorch', '6 months'],
     source: 'https://google.com',
     visit: 'https://google.com',
@@ -12,7 +12,7 @@ export const projects = [
   {
     title: 'Incoming personal project',
     description:"Implementing my own project web application, related to Data Science with machine learning algorithms and use of public API. Stay condifential becasue of the fact that you'll find on your phone store soon :)   ",
-    image: '/images/11.png',
+    image: '/images/7.jpg',
     tags: ['Web application', 'APIs', 'Python', 'Mathematics', 'Social'],
     source: 'https://github.com/Run-Light/Run-Light',
     visit: 'https://github.com/Run-Light/Run-Light',
@@ -42,7 +42,7 @@ export const projects = [
   {
     title: 'CEA Software Engineer task ',
     description: "Delivered a solution on operators’s needs (nuclear fuel manufacturing form). Implementation of a ceramic manufacturing database to cross-reference operating conditions",
-      image: '/images/9.png',
+    image: '/images/9.png',
       tags: ['JavaScript', 'Excel', 'VBA', '6 months'],
     source: 'https://google.com',
     visit: 'https://google.com',

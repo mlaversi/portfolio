@@ -11,10 +11,23 @@ const Hero = () => {
   // Function to open and view the PDF
   const handleViewCV = () => {
     // Construct the path to your PDF file (assuming it's in the public folder)
-    const pdfPath = '/LAVERSIN_CV.pdf';
+    const pdfPath = '/CV_LAVERSIN.pdf';
 
-    // Open the PDF in a new tab for viewing
-    window.open(pdfPath, '_blank');
+    // Check if the PDF file exists
+    fetch(pdfPath)
+      .then(response => {
+        if (response.ok) {
+          // Open the PDF in a new tab for viewing
+          window.open(pdfPath, '_blank');
+        } else {
+          console.error(`PDF file not found: ${pdfPath}`);
+          // Handle the case where the PDF file doesn't exist
+        }
+      })
+      .catch(error => {
+        console.error('Error while checking the PDF file:', error);
+        // Handle any other errors that may occur
+      });
   };
 
   return (
@@ -35,3 +48,4 @@ const Hero = () => {
 };
 
 export default Hero;
+
